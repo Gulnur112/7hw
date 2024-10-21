@@ -1,0 +1,70 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    width: 540px;
+    background-color: rgba(255, 255, 255, 0.259);
+    border: 5px rgb(218, 214, 214) solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.first, .second, .third {
+    width: 160px;
+    height: auto;
+}
+
+p, span, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dollars {
+    font-size: 20px;
+}
+
+.fstbtn{
+    background-color: rgb(248, 239, 248);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.scndbtn {
+    background-color: rgb(188, 247, 227);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 18px;
+}
+
+.thrdbtn {
+    background-color: rgb(245, 226, 201);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 35px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.desc {
+    font-size: 11px;
+}
+
+h1 {
+    font-size: 18px
+}
